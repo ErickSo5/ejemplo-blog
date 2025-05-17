@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return(
     <div className='cuadro-blog'>
-      <img className='imagen-blog' src='./images/imagen-de-blog.png' alt='Imgaen de blog'></img>
+      <img className='imagen-blog' src='src/images/imagen-de-blog.png' alt='Imgaen de blog'></img>
       <div className='cuadro-learning'>
         Leraning
       </div>
