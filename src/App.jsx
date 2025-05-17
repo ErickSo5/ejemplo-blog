@@ -23,7 +23,7 @@ function App() {
         These languages are the backbone of every website, defeting structure, context, and presentatios
       </div>
       <div className='cuadro-perfil'>
-        <img src={imagenDeAvatar} alt="" />
+        <img src={imagenDeAvatar} alt="imagen avatar2" />
         <div>
           Greg Hooper
         </div>
