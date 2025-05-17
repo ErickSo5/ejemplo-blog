@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body{
+  background-color: #fddc4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.cuadro-blog{
+  height: 550px;
+  width: 390px;
+  background-color: aliceblue;
+  border-radius: 22px;
+  box-shadow: 5px 6px 0px black;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*Ojo con este */
+  align-items: center;
+  padding: 20px;
+}
+
+.imagen-blog{
+  height: 220px;
+  width: 370px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.cuadro-learning{
+  width: auto;
+  background-color: #fddc4a;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 14px;
+  text-align: left;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.cuadro-publicado{
+  width: auto;
+  border-radius: 10px;
+  margin-top: 7px;
+  margin-left: 7px;
+  font-size: 13px;
+  text-align: left;
+  font-weight: 600;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.cuadro-HTML{
+  width: auto;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 6px;
+  text-align: left;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: sans-serif - Neo Grotesque;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.cuadro-texto{
+  width: auto;
+  color: rgb(108, 108, 108);
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 6px;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  line-height: 1.6; /* Interlineado (ajusta el valor según prefieras) */
+}
+
+.cuadro-perfil {
+  display: flex; /* Organiza en fila (row) */
+  align-self: flex-start;
+  align-items: center; /* Centra verticalmente */
+  gap: 10px; /* Espacio entre la imagen y el texto */
+  padding: 10px;
+  margin-left: 10px;
+
+}
+
+.cuadro-perfil img {
+  width: 50px; /* Tamaño ajustable de la imagen */
+  height: 50px;
+  border-radius: 50%; /* Hace la imagen circular */
+}
+
+.cuadro-perfil div {
+  font-size: 16px;
+  font-weight: bold;
+}
