@@ -2,11 +2,13 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import imagenDeBlog from './images/imagen-de-blog.png';
+
 
 function App() {
   return(
     <div className='cuadro-blog'>
-      <img className='imagen-blog' src='/images/imagen-de-blog.png' alt='Imgaen de blog1'></img>
+      <img className='imagen-blog' src={imagenDeBlog} alt='Imgaen de blog1'></img>
       <div className='cuadro-learning'>
         Leraning
       </div>
