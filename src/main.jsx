@@ -4,7 +4,7 @@ import './index.css'
 import './App.css'
 import App from './App.jsx'
 import imagenDeBlog from './images/imagen-de-blog.png';
-import imagenDeAvatar from './images/imagen-avatar.webp';
+import imagenDeAvatar from './images/image-avatar.webp';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
