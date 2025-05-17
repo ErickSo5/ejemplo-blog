@@ -8,7 +8,7 @@ import imagenDeBlog from './images/imagen-de-blog.png';
 function App() {
   return(
     <div className='cuadro-blog'>
-      <img className='imagen-blog' src={imagenDeBlog} alt='Imgaen de blog1'></img>
+      <img className='imagen-blog' src={imagenDeBlog} alt='Imgaen de blog12'></img>
       <div className='cuadro-learning'>
         Leraning
       </div>
