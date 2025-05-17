@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import imagenDeBlog from './images/imagen-de-blog.png';
+import imagenDeAvatar from './images/imagen-avatar.webp';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         These languages are the backbone of every website, defeting structure, context, and presentatios
       </div>
       <div className='cuadro-perfil'>
-        <img src="./images/image-avatar.webp" alt="" />
+        <img src={imagenDeAvatar} alt="" />
         <div>
           Greg Hooper
         </div>
