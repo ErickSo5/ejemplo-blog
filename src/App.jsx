@@ -22,7 +22,7 @@ function App() {
         These languages are the backbone of every website, defeting structure, context, and presentatios
       </div>
       <div className='cuadro-perfil'>
-        <img src="src/images/image-avatar.webp" alt="" />
+        <img src="./images/image-avatar.webp" alt="" />
         <div>
           Greg Hooper
         </div>
