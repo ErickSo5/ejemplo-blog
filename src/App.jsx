@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import imagenDeBlog from './images/imagen-de-blog.png';
-import imagenDeAvatar from './images/imagen-avatar.webp';
+import imagenDeAvatar from './images/image-avatar.webp';
 
 
 function App() {
